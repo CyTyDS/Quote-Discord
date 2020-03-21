@@ -1,0 +1,8 @@
+{
+    "name": "quote",
+    "version": "1.0.0",
+    "description": "I'm Quote !",
+    "main": "index.js",
+    "author": "CyTy",
+    "dependencies": {}
+}
