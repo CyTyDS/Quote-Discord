@@ -99,6 +99,17 @@ bot.on('message', message => {
                 hook.send(msg);
             break;
 
+            case 'co2':
+                var hook = new Discord.WebhookClient('691108811154391101', '2ygkbfyO4kBMPItyYU_DPqB2FJeiO7gnsC_ox3sbd4HUI2mllnGDunkCbNUcf6jVAYFI');
+                fullCmd.shift();
+                fullCmd.shift();
+                var msg = "";
+                fullCmd.forEach((str) => {
+                    msg += str + " ";
+                });
+                hook.send(msg);
+            break;
+
             // Just add any case commands if you want to..
         }
     }
